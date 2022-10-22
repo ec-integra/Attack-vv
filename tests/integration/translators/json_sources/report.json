@@ -1,0 +1,94 @@
+{
+  "tcp_ports": {
+    "nmaprun": {
+      "host": [
+        {
+          "address": [
+            {
+              "@addr": "192.168.0.1"
+            },
+            {
+              "@addr": "C0:C9:E3:81:16:04"
+            }
+          ],
+          "ports": {
+            "port": [
+              {
+                "@protocol": "tcp",
+                "@portid": "22",
+                "state": {
+                  "@state": "open"
+                },
+                "service": {
+                  "@name": "ssh"
+                }
+              },
+              {
+                "@protocol": "tcp",
+                "@portid": "53",
+                "state": {
+                  "@state": "open"
+                },
+                "service": {
+                  "@name": "domain"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "address": {
+            "@addr": "192.168.0.102"
+          },
+          "ports": {}
+        }
+      ]
+    }
+  },
+  "udp_ports": {
+    "nmaprun": {
+      "host": [
+        {
+          "address": [
+            {
+              "@addr": "192.168.0.104"
+            },
+            {
+              "@addr": "E8:D0:FC:C4:08:19"
+            }
+          ],
+          "ports": {
+            "port": [
+              {
+                "@protocol": "udp",
+                "@portid": "631",
+                "state": {
+                  "@state": "open|filtered"
+                },
+                "service": {
+                  "@name": "ipp"
+                }
+              },
+              {
+                "@protocol": "udp",
+                "@portid": "5353",
+                "state": {
+                  "@state": "open|filtered"
+                },
+                "service": {
+                  "@name": "zeroconf"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "address": {
+            "@addr": "192.168.0.102"
+          },
+          "ports": {}
+        }
+      ]
+    }
+  }
+}

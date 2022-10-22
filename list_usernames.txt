@@ -1,0 +1,11 @@
+admin
+none
+Admin
+ADMIN
+root
+camera
+meinsm
+12345
+system
+supervisor
+ubnt
