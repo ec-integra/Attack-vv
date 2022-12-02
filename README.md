@@ -1,5 +1,9 @@
 # EC-INEGRA
 ![176a12e4-7bcb-4015-8b15-6ab9d2d9bff5](https://user-images.githubusercontent.com/116355531/197199151-55fe450a-90f8-4402-a8f2-218e6ecfc886.jpg)
+# Авторы
+1. [Басан Елена Сергеевна](https://github.com/lennylenny161), контакты: ebasan@sfedu.ru
+2. Басан Александр Сергеевич, контакты: deb@ec-integra.ru
+3. [Рязанов Максим Сергеевич](https://github.com/Entarudin), контакты: riazanov@sfedu.ru
 ## Описание
 Attack-vv - это программный модуль верификации векторов атак, который на основе скана программы NetworkScanner выполняет сетевые атаки (syn flood, upd flood, arp spofing, brute force, dchp starvation) с целью анализа защищенности сети.
 ## Функционал
